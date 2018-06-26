@@ -4,7 +4,9 @@
   "description": "a command-line bitcoin price board for geeks",
   "main": "index.js",
   "scripts": {
-    "start": "bin/cli"
+    "start": "bin/cli",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "bin": "bin/cli",
   "repository": {
@@ -32,6 +34,8 @@
     "moment": "~2.8.1",
     "consoler": "~0.0.8",
     "underscore": "~1.6.0",
-    "term-list-enhanced": "0.1.0"
-  }
+    "term-list-enhanced": "0.1.0",
+    "snyk": "^1.85.0"
+  },
+  "snyk": true
 }
