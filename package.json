@@ -31,7 +31,7 @@
     "colors": "~0.6.2",
     "moment": "~2.8.1",
     "consoler": "~0.0.8",
-    "underscore": "~1.6.0",
+    "underscore": "~1.12.1",
     "term-list-enhanced": "0.1.0"
   }
 }
